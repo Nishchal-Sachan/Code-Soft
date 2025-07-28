@@ -1,0 +1,89 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+.main-header {
+  text-align: center;
+  background-color: #003366;
+  color: #fff;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+/* Sections */
+.section {
+  background: #fff;
+  padding: 25px 30px;
+  margin: 30px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+.project-card {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  background-color: #f0f4f8;
+  border-left: 4px solid #0066cc;
+  border-radius: 6px;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 120px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px 0 20px;
+}
+
+/* Resume Link */
+.resume-link {
+  display: inline-block;
+  background-color: #003366;
+  color: #fff;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.resume-link:hover {
+  background-color: #0055aa;
+}
+
+/* Footer */
+.main-footer {
+  text-align: center;
+  padding: 20px 10px;
+  color: #fff;
+  background-color: #003366;
+  border-radius: 10px;
+  margin-top: 40px;
+}
